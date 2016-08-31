@@ -1,0 +1,16 @@
+Package: Autocosmos
+Type: Package
+Title: Download catalog and prices from Autocosmos website
+Version: 0.1
+Date: 2016-08-31
+Authors@R: person("Jean", "Arreola", email = "jean.arreola@yahoo.com", role = c("aut", "cre"))
+Description: Provides functions to download and parse the catalog and prices from Autocosmos (Guide ofr buying/selling cars).
+Encoding: UTF-8
+License: What license is it under?
+Imports:
+    rvest,
+    dplyr,
+    xml2
+LazyData: TRUE
+RoxygenNote: 5.0.1
+
