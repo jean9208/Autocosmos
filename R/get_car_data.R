@@ -14,7 +14,8 @@
 
 
 
-
+#' @export
+#' @rdname  get_car_data
 get_car_data <- function(brand,submarca) {
 
   brand_rv    <- tolower(brand)

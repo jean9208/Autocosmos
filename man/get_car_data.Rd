@@ -18,7 +18,7 @@ A list containig the url image, price, model prices and competitors
 Obtain data from Autocosmos according to the selecte brand and make
 }
 \examples{
-get_car_data( "Volkswagen", "Gol")
+get_car_data( "Volkswagen", "Jetta")
 }
 \author{
 Jean Arreola
