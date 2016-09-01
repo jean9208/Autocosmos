@@ -10,7 +10,7 @@ get_model(make)
 A character string containing all the models in the catalog.
 }
 \description{
-Obtain all the possible
+Obtain all the possible models for a selected make.
 }
 \examples{
 make <- get_make()[1]

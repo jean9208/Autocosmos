@@ -1,6 +1,6 @@
 #' get_model
 #'
-#' Obtain all the possible
+#' Obtain all the possible models for a selected make.
 #' @author Jean Arreola
 #' @return A character string containing all the models in the catalog.
 #' @examples
