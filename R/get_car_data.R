@@ -63,7 +63,6 @@ get_car_data <- function(make,model) {
       data.frame(url = x[grep(paste(make, model),x)])
     }
     ) %>%
-    distinct() %>%
     map_df(function(x) {
       data.frame(url = x[grep("name",x)])
     }
