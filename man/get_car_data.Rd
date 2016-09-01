@@ -4,21 +4,23 @@
 \alias{get_car_data}
 \title{get_car_data}
 \usage{
-get_car_data(brand, submarca)
+get_car_data(make, model)
 }
 \arguments{
-\item{brand}{The brand according to the catalog}
-
 \item{make}{The make according to the catalog}
+
+\item{model}{The model according to the catalog}
 }
 \value{
-A list containig the url image, price, model prices and competitors
+A list containig the url image, price, version prices and competitors
 }
 \description{
-Obtain data from Autocosmos according to the selecte brand and make
+Obtain data from Autocosmos according to the selecte make and model
 }
 \examples{
-get_car_data( "Volkswagen", "Jetta")
+make <- get_make()[1]
+model <- get_model(make)[1]
+get_car_data(make, model)
 }
 \author{
 Jean Arreola
